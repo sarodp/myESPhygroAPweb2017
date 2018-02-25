@@ -1,0 +1,22 @@
+<svg width="5cm" height="3cm" viewBox="0 -0.26595744680850686 500 300.531914893617" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" ><rect id="svgEditorBackground" x="0" y="0" width="500" height="300" style="fill:none;stroke:none;"/>
+  <desc>Example animMotion01 - demonstrate motion animation computations</desc>
+  <rect x="1" y="1" width="498" height="298" fill="none" stroke="blue" stroke-width="2"/>
+
+  <!-- Draw the outline of the motion path in blue, along
+          with three small circles at the start, middle and end. -->
+  <path id="path1" d="M-1.06382,90.4255 C38.8298,289.362 378.723,81.9151 450.532,297.872" fill="none" stroke="blue" stroke-width="7.06"/>
+  <circle cx="73.4042" cy="61.1702" r="27.725" fill="blue"/>
+  <circle cx="228.723" cy="54.7874" r="17.64" fill="blue"/>
+  <circle cx="437.234" cy="61.1701" r="17.64" fill="blue"/>
+
+  <!-- Here is a triangle which will be moved about the motion path.
+       It is defined with an upright orientation with the base of
+       the triangle centered horizontally just above the origin. -->
+  <path d="M-25,-12.5 L25,-12.5 L 0,-87.5 z" fill="yellow" stroke="red" stroke-width="7.06">
+
+    <!-- Define the motion path animation -->
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+       <mpath xlink:href="#path1"/>
+    </animateMotion>
+  </path>
+</svg>

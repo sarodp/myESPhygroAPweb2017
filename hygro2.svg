@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"  viewBox="235 235 530 530"><rect id="svgEditorBackground" x="235" y="235" width="530" height="530" style="fill:none;stroke:none;"/>
+<circle cx="500" cy="500" r="270.248" fill="WhiteSmoke" stroke="#b46b41" stroke-width="16"/>
+<circle cx="500" cy="500" r="293.405" fill-opacity="0" stroke="#c68762" stroke-width="4"/>
+<g stroke="black" stroke-width="2" fill="none">
+<rect x="450" y="590" rx="5" ry="5" width="100" height="40"/>
+<rect x="450" y="635" rx="5" ry="5" width="100" height="40"/></g>
+<path fill="none" stroke="#2e8b57" stroke-width="20" d="M413,331a190,190,35,0,1,244,62"/>
+<defs>
+<g id="PO">
+<line stroke-width="5" x1="500" y1="500" x2="500" y2="700" fill="orangered"/>
+<rect x="492" y="455" rx="2" ry="2" width="16" height="64" fill="orangered"/>
+<circle cx="500" cy="500" r="2" stroke="brown" stroke-width="4"/>
+<circle cx="500" cy="500" r="3" fill="grey"/></g>
+<g>
+<line stroke-width="4" id="M" x1="500" y1="680" x2="500" y2="700"/>
+<line stroke-width="6" id="L" x1="500" y1="670" x2="500" y2="700"/></g>
+<g id="Z">
+<use xlink:href="#L" transform="rotate(0,500,500)"/>
+<use xlink:href="#M" transform="rotate(14,500,500)"/></g></defs>
+<g id="T" stroke="black">
+<use xlink:href="#Z" transform="rotate(40,500,500)"/>
+<use xlink:href="#Z" transform="rotate(68,500,500)"/>
+<use xlink:href="#Z" transform="rotate(96,500,500)"/>
+<use xlink:href="#Z" transform="rotate(124,500,500)"/>
+<use xlink:href="#Z" transform="rotate(152,500,500)"/>
+<use xlink:href="#Z" transform="rotate(180,500,500)"/>
+<use xlink:href="#Z" transform="rotate(208,500,500)"/>
+<use xlink:href="#Z" transform="rotate(236,500,500)"/>
+<use xlink:href="#Z" transform="rotate(264,500,500)"/>
+<use xlink:href="#Z" transform="rotate(292,500,500)"/>
+<use xlink:href="#L" transform="rotate(320,500,500)"/></g>
+<g font-family="arial" font-size="36" font-weight="normal" font-style="normal" stroke="black" fill="black">
+<text x="350" y="685">0</text>
+<text x="270" y="590">10</text>
+<text x="255" y="490">20</text>
+<text x="290" y="395">30</text>
+<text x="378" y="315">40</text>
+<text x="480" y="295">50</text>
+<text x="577" y="316">60</text>
+<text x="660" y="380">70</text>
+<text x="705" y="490">80</text>
+<text x="690" y="595">90</text>
+<text x="610" y="690">100</text>
+<text x="450" y="720">% RH</text>
+<text x="465" y="623" fill="brown">24.6</text>
+<text x="560" y="620" font-size="28">C</text>
+<text x="465" y="668" fill="blue">24.6</text>
+<circle cx="560" cy="595" r="3" fill="white" stroke="black" stroke-width="2"/></g>
+<g stroke="red" stroke-width="1" fill="none">
+<use xlink:href="#PO" transform="rotate(108.95,500,500)"/></g></svg>
