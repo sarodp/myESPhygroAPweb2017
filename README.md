@@ -1,5 +1,5 @@
 # myESPhygroAPweb2017
-ESP-01+DS1820+DHT11 //APserver+Webserver+SVG GUI + hygrometer 
+ESP-01+DS1820+DHT11 ++ APserver+Webserver+SVG GUI ==> ESP-01 Web-based GUI Hygrometer  
 
 ### Adapted from:
 http://esp8266.fancon.cz/esp8266-web-hygrometer-dht11-arduino/esp8266-web-hygrometer-dht11-arduino.html
